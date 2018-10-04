@@ -1,3 +1,3 @@
 
 summary(raw_data)
-View(raw_data)
+raw_data
