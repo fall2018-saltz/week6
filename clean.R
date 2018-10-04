@@ -18,3 +18,4 @@ summary(cleanCensus)
 #create a dataframe of arrests data
 arrests<-USArrests
 #make a combined dataframe of arrests and cleanCensus data
+str(arrests)
