@@ -1,4 +1,5 @@
 
+#Part of this code is taken from week 6 slides
 new_raw_data<-raw_data
 readStates<-function(new_raw_data)
 {
