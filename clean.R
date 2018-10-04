@@ -1,7 +1,5 @@
 
-summary(raw_data)
-raw_data
-#delete 53rd row
+new_raw_data<-raw_data
 readStates<-function(new_raw_data)
 {
 new_raw_data<- raw_data[-53,]
