@@ -8,4 +8,5 @@ new_raw_data<- raw_data[-53,]
 #remove first four columns
 new_raw_data<- new_raw_data[,-1:-4]
 #change the names for the remaiing columns
+colnames(new_raw_data)<-c("stateName","population", "popOver18", "percentOver18"
 }
