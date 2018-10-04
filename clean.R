@@ -5,6 +5,7 @@ readStates<-function(new_raw_data)
 {
 #delete 53rd row
 new_raw_data<- raw_data[-53,]
+new_raw_data<-raw_data[-1,]
 #str(new_raw_data)
 #remove first four columns
 new_raw_data<- new_raw_data[,-1:-4]
@@ -21,4 +22,4 @@ arrests<-USArrests
 str(arrests)
 str(cleanCensus)
 #merge using merge 
-arrests_cleanCensus <- merge(arrests,cleanCensus)
+#arrests_cleanCensus <- merge(arrests,cleanCensus)
