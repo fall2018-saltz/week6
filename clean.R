@@ -1,2 +1,2 @@
 
-raw_data
+summary(raw_data)
