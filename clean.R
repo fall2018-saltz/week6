@@ -15,3 +15,5 @@ return(new_raw_data)
 }
 cleanCensus<-readStates(new_raw_data)
 summary(cleanCensus)
+
+arrests<-USArrests
