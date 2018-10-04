@@ -7,9 +7,9 @@ new_raw_data<- raw_data[-53,]
 #str(new_raw_data)
 #remove first four columns
 new_raw_data<- new_raw_data[,-1:-4]
-#change the names for the remaiing columns
+#change the names for the remaining columns
 colnames(new_raw_data)<-c("stateName","population", "popOver18", "percentOver18")
 
 return(new_raw_data)
 }
-summary(new_raw_data)
+summary(readStates)
