@@ -15,5 +15,5 @@ return(new_raw_data)
 }
 cleanCensus<-readStates(new_raw_data)
 summary(cleanCensus)
-
+#create a dataframe of arrests data
 arrests<-USArrests
