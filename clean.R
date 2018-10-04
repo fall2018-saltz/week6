@@ -22,3 +22,4 @@ str(arrests)
 str(cleanCensus)
 #merge using merge 
 arrests_cleanCensus <- merge(arrests,cleanCensus)
+str(arrests_cleanCensus)
