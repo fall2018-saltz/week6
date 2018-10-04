@@ -13,3 +13,4 @@ colnames(new_raw_data)<-c("stateName","population", "popOver18", "percentOver18"
 return(new_raw_data)
 }
 cleanCensus<-readStates(new_raw_data)
+summary(cleanCensus)
