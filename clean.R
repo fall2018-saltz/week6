@@ -1,6 +1,7 @@
 
 #Part of this code is taken from week 6 slides
 new_raw_data<-raw_data
+dim(raw_data)
 readStates<-function(new_raw_data)
 {
 #delete 53rd row
