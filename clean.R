@@ -6,6 +6,7 @@ readStates<-function(new_raw_data)
 {
 #delete 53rd row
 new_raw_data<- raw_data[-53,]
+#delete 1st row
 new_raw_data<-raw_data[-1,]
 #str(new_raw_data)
 #remove first four columns
