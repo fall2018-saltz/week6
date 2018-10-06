@@ -27,7 +27,7 @@
         {
             "ports": [
                 {
-                    "input": "merge.csv",
+                    "input": "merge",
                     "type": "csv"
                 }
             ],
@@ -52,6 +52,6 @@
             "name": "merged_data.R"
         }
     ],
-    "updated_at": "2018-10-06 19:24:06",
+    "updated_at": "2018-10-06 19:24:54",
     "url": "https://github.com/fall2018-saltz/week6"
 }
