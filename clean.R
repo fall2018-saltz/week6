@@ -32,3 +32,6 @@ cleanCensus<-cleanCensus[-9,]
 rownames(cleanCensus)<-NULL
 #cleanCensus[1:10,]
 #arrests[1:10,]
+
+#merge using merge 
+arrests_cleanCensus <- merge(arrests,cleanCensus)
