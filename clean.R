@@ -29,3 +29,4 @@ str(cleanCensus)
 arrests[1:10,]
 cleanCensus[1:10,]
 cleanCensus[-8,]
+cleanCensus[1:10,]
