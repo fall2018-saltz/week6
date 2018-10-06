@@ -27,7 +27,6 @@
         {
             "ports": [
                 {
-                    "input": "arrests_CleanCensus.r",
                     "output": "undefined",
                     "type": "r_obj"
                 }
@@ -55,6 +54,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 18:47:45",
+    "updated_at": "2018-10-06 19:03:40",
     "url": "https://github.com/fall2018-saltz/week6"
 }
