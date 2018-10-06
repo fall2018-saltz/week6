@@ -33,6 +33,16 @@
             ],
             "source": "data.csv",
             "target": "merged_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data.R",
+            "target": "pop_data.png"
         }
     ],
     "nodes": [
@@ -57,6 +67,6 @@
             "name": "pop_data.png"
         }
     ],
-    "updated_at": "2018-10-06 20:23:00",
+    "updated_at": "2018-10-06 20:23:24",
     "url": "https://github.com/fall2018-saltz/week6"
 }
