@@ -27,3 +27,4 @@ str(cleanCensus)
 #merge using merge 
 #arrests_cleanCensus <- merge(arrests,cleanCensus)
 arrests[1:10,]
+cleanCensus[1:10,]
