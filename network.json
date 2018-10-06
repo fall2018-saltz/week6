@@ -27,7 +27,8 @@
         {
             "ports": [
                 {
-                    "input": "arrests_CleanCensus",
+                    "input": "arrests_CleanCensus.r",
+                    "output": "undefined",
                     "type": "r_obj"
                 }
             ],
@@ -48,10 +49,12 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "beallen",
             "desc": "Create a histogram using ggplot",
-            "name": "plotting.R"
+            "name": "plotting.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 18:30:28",
+    "updated_at": "2018-10-06 18:47:45",
     "url": "https://github.com/fall2018-saltz/week6"
 }
