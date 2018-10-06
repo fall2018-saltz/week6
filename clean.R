@@ -31,3 +31,4 @@ cleanCensus[1:10,]
 cleanCensus<-cleanCensus[-9,]
 #cleanCensus[1:10,]
 rownames(cleanCensus)<-NULL
+cleanCensus[1:10,]
