@@ -22,14 +22,14 @@ summary(cleanCensus)
 #create a dataframe of arrests data
 arrests<-USArrests
 #make a combined dataframe of arrests and cleanCensus data
-str(arrests)
-str(cleanCensus)
+#str(arrests)
+#str(cleanCensus)
 #merge using merge 
 #arrests_cleanCensus <- merge(arrests,cleanCensus)
-arrests[1:10,]
-cleanCensus[1:10,]
+#arrests[1:10,]
+#cleanCensus[1:10,]
 cleanCensus<-cleanCensus[-9,]
 #cleanCensus[1:10,]
 rownames(cleanCensus)<-NULL
-cleanCensus[1:10,]
-arrests[1:10,]
+#cleanCensus[1:10,]
+#arrests[1:10,]
