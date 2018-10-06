@@ -48,10 +48,15 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "beallen",
             "desc": "Create ggplots using newly created merged data",
-            "name": "merged_data.R"
+            "name": "merged_data.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "pop_data.png"
         }
     ],
-    "updated_at": "2018-10-06 19:24:54",
+    "updated_at": "2018-10-06 20:23:00",
     "url": "https://github.com/fall2018-saltz/week6"
 }
