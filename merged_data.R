@@ -3,9 +3,7 @@
 #load ggplot
 dim(merge)
 library(ggplot2)
-# Basic histogram
-ggplot(merge, aes(x=population)) + geom_histogram() 
-# Change the width of bins
+# Basic histogram the width of bins
 ggplot(merge, aes(x=population)) + 
   geom_histogram(binwidth=30) 
 # Change colors
