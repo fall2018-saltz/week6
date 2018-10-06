@@ -27,9 +27,12 @@ arrests<-USArrests
 
 #arrests[1:10,]
 #cleanCensus[1:10,]
+
 #delete District of Columbia row
 cleanCensus<-cleanCensus[-9,]
 #cleanCensus[1:10,]
+
+#reset rownumbers
 rownames(cleanCensus)<-NULL
 #cleanCensus[1:10,]
 #arrests[1:10,]
