@@ -36,8 +36,12 @@
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "Create a histogram using ggplot",
+            "name": "plotting.R"
         }
     ],
-    "updated_at": "2018-10-04 15:27:27",
+    "updated_at": "2018-10-06 18:28:50",
     "url": "https://github.com/fall2018-saltz/week6"
 }
