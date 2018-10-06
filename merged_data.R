@@ -11,3 +11,4 @@ ggplot(merge, aes(x=weight)) +
 p<-ggplot(merge, aes(x=weight)) + 
   geom_histogram(color="black", fill="white")
 p
+str(merge)
