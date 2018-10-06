@@ -17,8 +17,9 @@ colnames(new_raw_data)<-c("stateName","population", "popOver18", "percentOver18"
 return(new_raw_data)
 }
 cleanCensus<-readStates(new_raw_data)
-dim(cleanCensus)
-summary(cleanCensus)
+#dim(cleanCensus)
+#summary(cleanCensus)
+
 #create a dataframe of arrests data
 arrests<-USArrests
 #make a combined dataframe of arrests and cleanCensus data
