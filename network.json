@@ -23,6 +23,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge.csv",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "merged_data.R"
         }
     ],
     "nodes": [
@@ -42,6 +52,6 @@
             "name": "merged_data.R"
         }
     ],
-    "updated_at": "2018-10-06 19:16:23",
+    "updated_at": "2018-10-06 19:24:06",
     "url": "https://github.com/fall2018-saltz/week6"
 }
