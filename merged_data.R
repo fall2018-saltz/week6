@@ -1,3 +1,4 @@
 
 #Using merged data create a histogram
-#Install ggplot
+#load ggplot
+library(ggplot2)
