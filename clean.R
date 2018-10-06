@@ -33,6 +33,6 @@ rownames(cleanCensus)<-NULL
 #cleanCensus[1:10,]
 #arrests[1:10,]
 
-#merge using merge 
+#merge dataframes using merge 
 arrests_cleanCensus <- merge(cleanCensus,arrests)
-str(arrests_cleanCensus)
+#str(arrests_cleanCensus)
