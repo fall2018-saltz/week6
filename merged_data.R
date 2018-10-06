@@ -1,6 +1,7 @@
 
 #Using merged data create a histogram
 #load ggplot
+dim(merge)
 library(ggplot2)
 # Basic histogram
 ggplot(merge, aes(x=population)) + geom_histogram()
