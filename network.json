@@ -37,7 +37,7 @@
         {
             "ports": [
                 {
-                    "output": "pop",
+                    "output": "pop_hist",
                     "type": "png"
                 }
             ],
@@ -67,6 +67,6 @@
             "name": "pop_data.png"
         }
     ],
-    "updated_at": "2018-10-06 20:23:24",
+    "updated_at": "2018-10-06 20:23:48",
     "url": "https://github.com/fall2018-saltz/week6"
 }
