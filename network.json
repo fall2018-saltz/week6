@@ -42,7 +42,7 @@
                 }
             ],
             "source": "merged_data.R",
-            "target": "pop_data.png"
+            "target": "pop_hist.png"
         }
     ],
     "nodes": [
@@ -64,9 +64,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "pop_data.png"
+            "name": "pop_hist.png"
         }
     ],
-    "updated_at": "2018-10-06 20:23:48",
+    "updated_at": "2018-10-06 20:29:20",
     "url": "https://github.com/fall2018-saltz/week6"
 }
