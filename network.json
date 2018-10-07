@@ -1,0 +1,72 @@
+{
+    "collaborators": [
+        "beallen"
+    ],
+    "created_at": "2018-10-04 15:21:13",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "merge",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "merged_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "pop_hist",
+                    "type": "png"
+                }
+            ],
+            "source": "merged_data.R",
+            "target": "pop_hist.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "beallen",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "Create ggplots using newly created merged data",
+            "name": "merged_data.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "pop_hist.png"
+        }
+    ],
+    "updated_at": "2018-10-06 20:29:20",
+    "url": "https://github.com/fall2018-saltz/week6"
+}
